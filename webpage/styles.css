@@ -1,0 +1,203 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+
+/*-------GLOBAL ELEMENTS------*/
+
+@font-face{
+  font-family: 'RobotoR';
+  font-weight: 400;
+  src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'RobotoL';
+  font-weight: 300;
+  src: url('assets/fonts/Roboto-Light.ttf');
+}
+
+.container {
+  width: 1004px;
+  margin: 0 auto;
+}
+.page-title{
+  background: #ff5500;
+  border-radius: 4px;
+}
+.page-title h2 {
+  color: #fff;
+  font-weight: 300;
+  font-family: 'RobotoL';
+}
+.box {
+  box-sizing: border-box;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'RobotoL', sans-serif;
+  font-weight: 300;
+}
+  body > header {
+    box-shadow: 0px 4px 1px 2px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    background: #f8f8ff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+    body > header .main-logo {
+      font-family: 'RobotoR';
+      font-size: 16px;
+      color: #000;
+      margin: 0;
+      padding: 14.5px 0;
+      float: left;
+    }
+      body > header ul,
+      body > header ul li {
+        font-family: 'RobotoR';
+        font-size: 16px;
+        list-style: none;
+        list-style-type: none;
+        display: inline-block;
+      }
+        body > header .primary-menu img {
+          width: 15px;
+          height: auto;
+        }
+
+  body > main {
+    margin: 57px 0 0 0;
+  }
+  body > footer {
+    background: #dcdcdc;
+    border-top: 3px solid #808080;
+  }
+    body > footer p {
+      color: #a9a9a9;
+      font-size: 13px;
+      text-align: center;
+      margin: 0;
+      padding: 15px 0;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*color: #000;*/
+    font-family: 'RobotoR'
+    }
+
+a,
+a:active,
+a:visited,
+a:focus {
+          color: #ffa500;
+          text-decoration: none;
+        }
+
+a:hover{
+          color: #ff8c00;
+        }
+
+button,
+input[type="button"] {
+  background: #ffa500;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+  button:hover,
+  input[type="button"]:hover{
+    background: #ff8c00;
+  }
+    button a,
+    button a:hover,
+    button a:active,
+    button a:visited,
+    button a:focus {
+      color: #fff;
+      text-decoration: none;
+    }
+input[type="button"].form-check {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
+/*------Homepage-----*/
+section.hero {
+  background: url("assets/images/background-image.jpg") no-repeat center center;
+  background-size: 100%;
+  padding: 159px 0 652px 0
+}
+  section.hero form {
+    background: #fff;
+    width: 20%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 12px;
+  }
+    section.hero form .action,
+    section.hero form .form-check{
+      margin-top: 10px;
+    }
+      section.hero form .action input[type="button"] {
+        border: none;
+        padding: 12px 15px 12px 15px;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: 'RobotoL';
+        border-radius: 6px;
+      }
+      section.hero form .form-check input[type="button"] {
+        padding: 12px 15px 12px 15px;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: 'RobotoL';
+        border-radius: 6px;
+        border: 1px solid #000;
+      }
+      section.hero form .form-city-room select.city {
+        background: #dbdbdb;
+        padding: 12px 27px 12px 15px;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: 'RobotoL';
+        border-radius: 6px;
+        border: 1px solid #000;
+        text-align: center;
+      }
+      section.hero form .form-city-room select.room {
+        background: #dbdbdb;
+        padding: 12px 15px 12px 15px;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: 'RobotoL';
+        border-radius: 6px;
+        border: 1px solid #000;
+        text-align: center;
+      }
